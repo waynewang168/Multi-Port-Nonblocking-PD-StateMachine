@@ -1,3 +1,4 @@
+```markdown
 # Multi-Port Non-Blocking USB-PD State Machine Simulation (C Language)
 
 以 C 語言實現之多接口並聯電源協定（USB-PD）狀態機控制系統，導入非阻塞調度與硬體邊界防禦機制。
@@ -14,5 +15,6 @@
    - 異常隔離狀態下強制開啟放電迴路（`BIT_DISCH_EN`），保護待測晶片與治具。
 
 ## 執行與驗證
+```bash
 gcc -Wall -Wextra -O2 pd_statemachine.c -o pd_statemachine
 ./pd_statemachine
