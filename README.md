@@ -1,4 +1,3 @@
-```markdown
 # Multi-Port Non-Blocking USB-PD State Machine Simulation (C Language)
 
 以 C 語言實現之多接口並聯電源協定（USB-PD）狀態機控制系統，導入非阻塞調度與硬體邊界防禦機制。
